@@ -1,3 +1,22 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+   <ion-menu side="start" menuId="first" contentId="content1" >
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+
+    <ion-content>
+      <ion-list>
+        <ion-item>Home Screen</ion-item>
+        <ion-item>Customize UI</ion-item>
+        <ion-item>API</ion-item>
+        <ion-item>Support</ion-item>
+        <ion-item>Credits</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+ 
+  <ion-router-outlet id="content1"></ion-router-outlet>
 </ion-app>
