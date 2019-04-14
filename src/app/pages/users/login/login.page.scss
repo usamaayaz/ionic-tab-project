@@ -1,0 +1,63 @@
+.login-content{
+    --padding-top: 3em;
+    --padding-start: 2em;
+    --padding-end: 2em;
+
+    text-align: center;
+    
+    .white-font{
+        --color: white;
+    }
+
+    .signin-icon{
+        height: 5em;
+    }
+
+    .heading-font{
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #8F8F98;
+        text-align: center;
+    }
+
+    .heading-font2{
+        font-size: 0.8em;
+        color: #8F8F98;
+        text-align: center;
+        overflow: auto;
+        white-space: normal;
+    }
+
+    .input-gray-bg{
+        background-color:#F6F6F8;
+        text-align: center;
+        --highlight-color-focused: #fff;
+        --color: #A9A9AB;
+        
+    }
+
+    .align-center{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .no-focused{
+        --highlight-color-focused: none;
+        --background-activated	: none;
+        --background-focused: none;
+    }    
+
+    .top-padding{
+        --padding-top: 0.6em;
+    }
+
+
+    .btn-green{
+        --border-radius: 2em;
+        --color: white;
+    }
+
+
+
+}
+
